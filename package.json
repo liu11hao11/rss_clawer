@@ -1,0 +1,25 @@
+{
+  "name": "rss_clawer",
+  "version": "1.0.0",
+  "description": "this is a rss_clawer that save the result to file. supppot more soucre",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "feedme": "^1.2.0",
+    "fs-extra": "^5.0.0",
+    "nock": "^9.2.5",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "cd test && mocha -t 50000 file.test.js"
+  },
+  "keywords": [
+    "rss",
+    "clawer"
+  ],
+  "author": "alex liu",
+  "license": "ISC"
+}
